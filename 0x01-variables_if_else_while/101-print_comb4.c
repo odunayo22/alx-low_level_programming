@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
-*main - To print all possible combinations of 3digits 
-*Return: Always 0 (Success)
-*/
+ *main - To print all possible combinations of 3digits 
+ *Return: Always 0 (Success)
+ */
 
 int main(void)
 {
@@ -31,4 +31,4 @@ int main(void)
 	putchar('\n');
 
 	return (0);
-}				 
+}	
