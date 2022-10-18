@@ -1,17 +1,17 @@
-#include <stdio.h>
-#include <time.h>
+#include "main.h"
 
 /**
- *main - function that prints the alphabet, in lowercase, followed by a new line
- *Return: Nothing
+ *function that prints the alphabet, in lowercase, followed by a new line
+ *Return: ON success 1
  */
 void print_alphabet(void)
 {
 	char m;
 
 	for (m = 'a'; m <= 'z'; m++)
-	{
-		putchar(m);
+	{	
+		_putchar(m);
+
+		_putchar('\n');	
 	}
-	putchar('\n');	
 }

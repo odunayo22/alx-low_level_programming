@@ -1,14 +1,18 @@
-#include <stdio.h>
 #include "main.h"
+
 /**
- *main
- *Return: Always 0 (Success)
+ *function that prints 10 times the alphabet, in lowercase, followed by a new line
  */
 
-int main(void)
-
+void print_alphabet_x10(void)
 {
-	print_alphabet_x10();
-      	return (0);
+	int counter = 0;
+	char letter;
 
+	while (counter++ <=9)
+	{
+		for (letter = 'a'; letter <= 'z'; letter++)
+			_putchar(letter);
+		_putchar('\n');
+	}
 }
