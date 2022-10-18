@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- *main - print_alphabeth in lowercase, followed by a new line.
- *Return: On success 1.
+ * print_alphabeth -prints all alphabeths in lowercase.
+ * Return: On success 1.
  */
 void print_alphabet(void)
 {
