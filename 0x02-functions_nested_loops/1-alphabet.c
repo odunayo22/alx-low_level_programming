@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- *function that prints the alphabet, in lowercase, followed by a new line
- *Return: On success 1
+ *print_alphabeth - function that prints the alphabet, in lowercase, followed by a new line.
+ *Return: On success 1.
  */
 void print_alphabet(void)
 {
@@ -10,8 +10,8 @@ void print_alphabet(void)
 
 	for (m = 'a'; m <= 'z'; m++)
 	{
-		_putchar(m);
-
-		_putchar('\n');
+	_putchar(m);
 	}
+	_putchar('\n');
+	
 }
